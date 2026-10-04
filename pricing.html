@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pricing | WISPer</title>
+  <meta name="description" content="WISPer pricing: $400 once to generate your firm's plan with its first year of updates, then $100 a year for the annual update the law requires.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.className = "js";</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+
+  <header class="topbar">
+    <div class="wrap">
+      <a class="logo" href="index.html" aria-label="WISPer home"><span class="logo-mark">§314</span><span class="logo-word">WISPer</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu"><span class="nav-toggle-bars"></span>Menu</button>
+      <nav class="menu" id="menu" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contents.html">Contents</a></li>
+          <li><a href="legal.html">Legal</a></li>
+          <li><a href="pricing.html" aria-current="page">Pricing</a></li>
+        </ul>
+        <a class="btn" href="https://www.wisp-er.com/signup">Start now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-title">
+      <div class="wrap">
+        <p class="kicker">One firm · One plan · One price</p>
+        <h1>Pricing</h1>
+        <p>A one-time purchase to generate your plan, then a yearly plan to keep it current. The document is legally required to be reviewed and updated every year.</p>
+      </div>
+    </section>
+
+    <!-- Plans -->
+    <section class="section" aria-labelledby="plans-title">
+      <div class="wrap">
+        <div class="section-head centered">
+          <h2 id="plans-title">Choose how you pay</h2>
+          <p>The questionnaire is free. Nothing is charged until you generate your plan.</p>
+        </div>
+
+        <div class="prices">
+          <article class="price">
+            <p class="kicker">Year one</p>
+            <h3>One-time purchase</h3>
+            <p class="sub">Your plan, generated once from your questionnaire.</p>
+            <p class="amount">$400 <small>once</small></p>
+            <ul class="ticks">
+              <li>Complete plan: ten sections and Appendices A–F</li>
+              <li>Word, PDF, HTML, and Markdown exports</li>
+              <li>Editing with version history and change tracking</li>
+              <li>Staff acknowledgments with e-sign links</li>
+              <li>First year of updates included</li>
+            </ul>
+            <a class="btn btn-big btn-ghost" href="https://www.wisp-er.com/signup">Buy once</a>
+          </article>
+
+          <article class="price featured">
+            <p class="flag">Recommended</p>
+            <p class="kicker">Year two onward</p>
+            <h3>Yearly plan</h3>
+            <p class="sub">Includes the required annual update.</p>
+            <p class="amount">$100 <small>/ year</small></p>
+            <ul class="ticks">
+              <li>Edit and regenerate whenever your firm changes</li>
+              <li>Annual review reminders by email</li>
+              <li>Acknowledgments for every new hire</li>
+              <li>Your edits carried forward on regeneration</li>
+              <li>Renews automatically; cancel anytime</li>
+            </ul>
+            <a class="btn btn-big" href="https://www.wisp-er.com/signup">Subscribe</a>
+          </article>
+        </div>
+        <p class="aside">Cancel the yearly plan and every version you’ve published stays yours to view and export. Editing, regeneration, and reminders pause until you renew.</p>
+      </div>
+    </section>
+
+    <!-- Cost calculator -->
+    <section class="section section-paper" aria-labelledby="calc-title">
+      <div class="wrap">
+        <div class="calc">
+          <div>
+            <h2 id="calc-title">What it costs over time</h2>
+            <p>Move the slider to see the total for keeping your plan current year after year.</p>
+          </div>
+          <div>
+            <label for="years">Years covered <output id="years-out" for="years">3 years</output></label>
+            <input type="range" id="years" min="1" max="10" step="1" value="3">
+            <dl class="receipt">
+              <div><dt>Initial plan (year one)</dt><dd>$400</dd></div>
+              <div><dt>Yearly plan × <span id="renewals">2</span></dt><dd id="renewal-cost">$200</dd></div>
+              <div class="total"><dt>Total</dt><dd id="total-cost">$600</dd></div>
+              <div class="avg"><dt>Average per year</dt><dd id="avg-cost">$200</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" aria-labelledby="faq-title">
+      <div class="wrap">
+        <div class="section-head centered">
+          <h2 id="faq-title">FAQ</h2>
+          <p>Questions about the service and what is included.</p>
+        </div>
+        <div class="faq faq-wide">
+          <details>
+            <summary>Why is there a yearly charge?</summary>
+            <p>The Safeguards Rule requires your firm to keep its security program current, and your plan commits to a full review at least every 12 months. The yearly plan covers that cycle: reminders, editing, regeneration, and acknowledgments for new staff.</p>
+          </details>
+          <details>
+            <summary>When am I charged?</summary>
+            <p>Nothing is charged while you answer the questionnaire. You pay $400 when you generate your plan, and the $100 yearly plan begins one year later.</p>
+          </details>
+          <details>
+            <summary>Can I buy once and never renew?</summary>
+            <p>Yes. Cancel anytime and you keep every published version to view and export. You will still need to review and update the plan each year, so you would do that outside WISPer.</p>
+          </details>
+          <details>
+            <summary>Is it priced per employee or per office?</summary>
+            <p>No. One firm, one plan, one price, whether you work alone or have several offices. Every employee can sign an acknowledgment at no extra cost.</p>
+          </details>
+          <details>
+            <summary>What if my firm changes during the year?</summary>
+            <p>Update your answers and regenerate as often as you need. Each published version is saved with its date, and paragraphs you edited carry forward.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="wrap">
+        <h2 id="cta-title">Get your document</h2>
+        <p>$400 today · $100 a year starting next year</p>
+        <a class="btn btn-big btn-light" href="https://www.wisp-er.com/signup">Buy the service</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="index.html" aria-label="WISPer home"><span class="logo-mark">§314</span><span class="logo-word">WISPer</span></a>
+          <p>Written Information Security Plans for solo practitioners and small CPA firms.</p>
+        </div>
+        <nav aria-labelledby="f-product">
+          <h2 id="f-product">Product</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contents.html">Contents</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="f-company">
+          <h2 id="f-company">Company</h2>
+          <ul>
+            <li><a href="legal.html">Legal</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="f-contact">
+          <h2 id="f-contact">Contact</h2>
+          <ul>
+            <li><a href="mailto:hello@wisp-er.com">Email</a></li>
+            <li><a href="index.html#contact">Contact form</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-base">© <span class="year">2026</span> WISPer. All rights reserved. Not legal advice: your plan should be reviewed by the professional who signs it.</p>
+    </div>
+  </footer>
+</body>
+</html>
