@@ -6,26 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  /* ---------- Every page: menu button on small screens ---------- */
-  var toggle = document.querySelector(".nav-toggle");
-  var menu = document.getElementById("menu");
-
-  if (toggle && menu) {
-    toggle.addEventListener("click", function () {
-      var open = toggle.getAttribute("aria-expanded") === "true";
-      toggle.setAttribute("aria-expanded", String(!open));
-      menu.classList.toggle("is-open", !open);
-    });
-
-    document.addEventListener("keydown", function (event) {
-      if (event.key === "Escape" && menu.classList.contains("is-open")) {
-        toggle.setAttribute("aria-expanded", "false");
-        menu.classList.remove("is-open");
-        toggle.focus();
-      }
-    });
-  }
-
   /* ---------- Every page: current year in the footer ---------- */
   document.querySelectorAll(".year").forEach(function (el) {
     el.textContent = new Date().getFullYear();
