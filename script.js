@@ -44,6 +44,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+  /* ---------- Home: the How it works video autoplays muted, unless motion is reduced ---------- */
+  var howVideo = document.getElementById("how-video");
+
+  if (howVideo && reduceMotion) {
+    howVideo.removeAttribute("autoplay");
+    howVideo.pause();
+  }
+
   /* ---------- Home: the hero document types out example firm names ---------- */
   var firmName = document.getElementById("firm-name");
 
