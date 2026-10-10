@@ -15,8 +15,7 @@
 
   <header class="topbar">
     <div class="wrap">
-      <a class="logo" href="index.html" aria-label="WISPer home"><span class="logo-mark">§314</span><span class="logo-word">WISPer</span></a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu"><span class="nav-toggle-bars"></span>Menu</button>
+      <a class="wordmark" href="index.html" aria-label="WISPer home">WISPer<span class="wordmark-dot"></span></a>
       <nav class="menu" id="menu" aria-label="Main">
         <ul>
           <li><a href="index.html" aria-current="page">Home</a></li>
@@ -24,8 +23,8 @@
           <li><a href="legal.html">Legal</a></li>
           <li><a href="pricing.html">Pricing</a></li>
         </ul>
-        <a class="btn" href="https://www.wisp-er.com/signup">Start now</a>
       </nav>
+      <a class="btn" href="#contact">Get started</a>
     </div>
   </header>
 
@@ -34,38 +33,41 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="wrap">
         <div class="hero-text">
-          <p class="kicker">For tax preparers &amp; CPA firms</p>
+          <p class="kicker">For tax preparers, CPA &amp; accounting firms</p>
           <h1 id="hero-title">Your firm’s security plan, <em>written for you</em> in an afternoon.</h1>
           <p>Every business that prepares tax returns must keep a Written Information Security Plan under the FTC Safeguards Rule. WISPer asks plain-English questions about your office, then generates a complete, firm-specific plan and reminds you to keep it current every year.</p>
           <div class="hero-actions">
-            <a class="btn btn-big" href="https://www.wisp-er.com/signup">Generate my document</a>
+            <a class="btn btn-big" href="#contact">Get started</a>
             <a class="btn btn-big btn-ghost" href="#sample">See a sample</a>
           </div>
           <p class="hero-note">The questionnaire is free. You only pay when you generate your plan.</p>
         </div>
 
-        <figure class="plan-art" role="img" aria-label="Illustration of a finished WISPer plan: the cover names the firm, lists six completed sections with check marks, has a signature line for the Qualified Individual, and carries a stamp reading Safeguards Rule, 16 CFR 314.">
-          <div class="sheet">
-            <div class="sheet-head"><span>Written Information Security Plan</span><span>v1</span></div>
-            <div class="sheet-body">
-              <p class="sheet-label">Prepared for</p>
-              <p class="sheet-firm"><span id="firm-name">Whitfield &amp; Associates, CPAs</span><span class="caret"></span></p>
-              <dl class="sheet-meta">
-                <div><dt class="sheet-label">Effective</dt><dd>March 12, 2026</dd></div>
-                <div><dt class="sheet-label">Next review</dt><dd>March 12, 2027</dd></div>
-              </dl>
-              <ol class="sheet-list">
-                <li><span>§2</span><b>Qualified Individual</b><i class="tick"></i></li>
-                <li><span>§3</span><b>Risk Assessment</b><i class="tick"></i></li>
-                <li><span>§4</span><b>Safeguards</b><i class="tick"></i></li>
-                <li><span>§6</span><b>Employee Training</b><i class="tick"></i></li>
-                <li><span>§8</span><b>Incident Response</b><i class="tick"></i></li>
-                <li><span>App. F</span><b>Remediation Plan</b><i class="tick"></i></li>
+        <figure class="hero-art" role="img" aria-label="Illustration of a finished WISPer plan: the cover names the firm, lists six completed sections with check marks, is signed by the Qualified Individual, and carries a seal reading Safeguards Rule, 16 CFR 314.">
+          <div class="art-stack">
+            <div class="art-back"></div>
+            <div class="art-sheet">
+              <p class="art-kicker">Written Information Security Plan</p>
+              <p class="art-firm"><span id="firm-name">Whitfield &amp; Associates, CPAs</span><span class="caret"></span></p>
+              <div class="art-rule"></div>
+              <p class="art-meta">Effective March 12, 2026 · Next review March 12, 2027</p>
+              <ol class="art-sections">
+                <li><span class="art-num">§2</span><span class="art-title">Qualified Individual</span><svg class="art-check" viewBox="0 0 16 16" aria-hidden="true"><path pathLength="1" d="M3 8.5 6.5 12 13 4.5"/></svg></li>
+                <li><span class="art-num">§3</span><span class="art-title">Risk Assessment</span><svg class="art-check" viewBox="0 0 16 16" aria-hidden="true"><path pathLength="1" d="M3 8.5 6.5 12 13 4.5"/></svg></li>
+                <li><span class="art-num">§4</span><span class="art-title">Safeguards</span><svg class="art-check" viewBox="0 0 16 16" aria-hidden="true"><path pathLength="1" d="M3 8.5 6.5 12 13 4.5"/></svg></li>
+                <li><span class="art-num">§6</span><span class="art-title">Employee Training</span><svg class="art-check" viewBox="0 0 16 16" aria-hidden="true"><path pathLength="1" d="M3 8.5 6.5 12 13 4.5"/></svg></li>
+                <li><span class="art-num">§8</span><span class="art-title">Incident Response</span><svg class="art-check" viewBox="0 0 16 16" aria-hidden="true"><path pathLength="1" d="M3 8.5 6.5 12 13 4.5"/></svg></li>
+                <li><span class="art-num">App. F</span><span class="art-title">Remediation Plan</span><svg class="art-check" viewBox="0 0 16 16" aria-hidden="true"><path pathLength="1" d="M3 8.5 6.5 12 13 4.5"/></svg></li>
               </ol>
-              <div class="sheet-sign"><p>Qualified Individual · signature</p></div>
+              <div class="art-sign">
+                <svg class="art-signature" viewBox="0 0 220 56" aria-hidden="true"><path pathLength="1" d="M10 40c4-17 11-30 17-31 8-1-2 26-9 32-5 4-8-2-3-7 9-8 24-9 33-5 6 3 2 9 7 8 5-2 5-12 10-12 5 0 2 11 7 11s6-11 11-11c4 0 1 9 6 9 6 0 8-19 12-27 1 10-2 22 2 25 4 3 7-8 11-8 5 0 2 9 7 8 7-1 10-10 16-10 7 0 4 11 12 10 13-2 31-9 48-12"/></svg>
+                <p class="art-sign-label">Qualified Individual</p>
+              </div>
+            </div>
+            <div class="art-seal">
+              <p>Safeguards<br>Rule<br>16 CFR § 314</p>
             </div>
           </div>
-          <p class="stamp">Safeguards Rule<br>16 CFR 314</p>
         </figure>
       </div>
     </section>
@@ -81,12 +83,13 @@
           <li class="box">
             <svg class="box-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.5h8.5L19 7v14.5H6z"/><path d="M14 2.5V7h5M9 12h7M9 15.5h7M9 19h4"/></svg>
             <h3>What you get</h3>
-            <p>A complete plan in ten sections with Appendices A–F, written for your firm by name.</p>
+            <p>A complete plan: an executive summary, ten sections, and Appendices A–F, written for your firm by name.</p>
             <ul class="ticks">
               <li>Word, PDF, HTML, and Markdown exports</li>
               <li>In-app editing with version history</li>
               <li>Staff acknowledgments with e-sign links</li>
               <li>Annual review reminders</li>
+              <li>A drafted annual report to ownership</li>
             </ul>
           </li>
           <li class="box">
@@ -106,12 +109,28 @@
             <p>Built on the requirements the IRS points every tax professional to.</p>
             <ul class="ticks">
               <li>Covers each element of 16 C.F.R. § 314.4</li>
-              <li>Follows the outline of IRS Publication 5708</li>
+              <li>Modeled on IRS Publication 5708</li>
               <li>Includes controls from IRS Pubs 4557 and 5293</li>
               <li>Breach-notice rules for each client state</li>
             </ul>
           </li>
         </ul>
+
+        <div class="split who">
+          <figure class="photo-frame">
+            <div class="photo">
+              <img src="images/small-office.jpg" alt="Two accountants working at a shared desk in a small office, one entering figures on a calculator beside a laptop." width="1200" height="801" loading="lazy">
+              <span class="photo-tag">Prepared for: your firm</span>
+            </div>
+            <figcaption class="credit">Photo: <a href="https://www.pexels.com/photo/woman-using-calculator-at-the-office-7654131/">Pavel Danilyuk / Pexels</a></figcaption>
+          </figure>
+          <div class="prose">
+            <p class="kicker">Who it’s for</p>
+            <h2>Built for the practice without an IT department</h2>
+            <p>Most tax offices are a preparer or two, a few seasonal staff, and a shared drive. The Safeguards Rule still applies to them, but nobody on staff writes security policy for a living.</p>
+            <p>WISPer is written for sole practitioners and small CPA firms, where the person answering the questionnaire is usually the same person who prepares the returns. Every question is in plain English, and every answer turns into a section of your plan. Bookkeeping, payroll, and advisory firms that don’t prepare returns get a plan without the IRS-specific parts.</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -132,20 +151,21 @@
               <p>Effective <span class="fill fill-s"></span> · Qualified Individual <span class="fill"></span></p>
             </div>
             <ol class="sample-sections">
+              <li><span class="num">—</span><div><h4>Executive Summary</h4><p>An overview of your program drafted from your answers, with an at-a-glance table: Qualified Individual, next review date, overall risk, the highest-rated risks, and open items.</p></div></li>
               <li><span class="num">§1</span><div><h4>Purpose, Scope, and Objectives</h4><p>Why <span class="fill"></span> adopts the plan, its authority under 16 C.F.R. Part 314, its objectives, and the terms it uses.</p></div></li>
               <li><span class="num">§2</span><div><h4>Qualified Individual</h4><p><span class="fill"></span> runs the program, reports to ownership each year, and has an optional named backup.</p></div></li>
-              <li><span class="num">§3</span><div><h4>Risk Assessment</h4><p>The client data held, where it lives, and eight foreseeable threats mapped to the safeguards that answer them.</p></div></li>
-              <li><span class="num">§4</span><div><h4>Safeguards: Information Systems Security</h4><p>Access control and MFA, encryption, network, devices and updates, backups, remote work, physical security, and IRS credentials.</p></div></li>
+              <li><span class="num">§3</span><div><h4>Risk Assessment</h4><p>The client data held, where it lives, and a scored risk register: each foreseeable threat rated for likelihood and impact, with the safeguards that answer it.</p></div></li>
+              <li><span class="num">§4</span><div><h4>Safeguards — Information Systems Security</h4><p>Access control and MFA, encryption, network, devices and updates, backups, remote work, physical security, filing integrity and IRS credentials, activity monitoring, change management, application security, and AI tool use.</p></div></li>
               <li><span class="num">§5</span><div><h4>Data Retention and Secure Disposal</h4><p>Records kept <span class="fill fill-s"></span> years, then destroyed: paper, drives, copier storage, and cloud data.</p></div></li>
-              <li><span class="num">§6</span><div><h4>Employee Management and Training</h4><p>Screening, a signed acknowledgment, training at hire and every year, and offboarding.</p></div></li>
+              <li><span class="num">§6</span><div><h4>Employee Management and Training</h4><p>Screening, a signed acknowledgment, security training with recorded completion, seasonal staff and contractors, offboarding, and enforcement.</p></div></li>
               <li><span class="num">§7</span><div><h4>Service Provider Oversight</h4><p>Vetting, written safeguard terms, and a yearly review of every vendor that can reach client data.</p></div></li>
-              <li><span class="num">§8</span><div><h4>Incident Response Plan</h4><p>Warning signs, response contacts, containment, and notice deadlines for the IRS, the FTC, and <span class="fill"></span>.</p></div></li>
-              <li><span class="num">§9</span><div><h4>Monitoring, Testing, and Annual Review</h4><p>An IRS credential-check calendar, a yearly control test, and a full plan review at least every 12 months.</p></div></li>
+              <li><span class="num">§8</span><div><h4>Incident Response Plan</h4><p>Warning signs, response contacts, who decides what, containment, and notice deadlines for the IRS, the FTC, and <span class="fill"></span>.</p></div></li>
+              <li><span class="num">§9</span><div><h4>Program Monitoring, Testing, and Annual Review</h4><p>A yearly control test, security testing, an IRS credential-check calendar for tax preparers, the annual written report to ownership, and a full plan review at least every 12 months.</p></div></li>
               <li><span class="num">§10</span><div><h4>Appendices A–F</h4><p>Hardware, software, personnel and access, service providers, employee acknowledgment, and the remediation plan.</p></div></li>
             </ol>
           </div>
-          <p class="sample-foot">Scroll inside the page to read all ten sections.</p>
         </div>
+        <p class="sample-hint">Scroll inside the page to read the summary and all ten sections.</p>
         <p class="legend"><span class="fill fill-s" aria-hidden="true"></span> marks where your firm’s details are written in.</p>
       </div>
     </section>
@@ -165,7 +185,7 @@
           </article>
           <article class="objection">
             <h3>“We aren’t fully compliant yet.”</h3>
-            <p>Most small firms aren’t. Your plan describes what you do today, and each gap becomes a dated commitment in Appendix F rather than an overstated claim.</p>
+            <p>Most small firms aren’t. Your plan describes what you do today. Each gap against a legal requirement becomes a dated commitment in Appendix F rather than an overstated claim, and best-practice improvements go in a separate recommendations report.</p>
           </article>
         </div>
 
@@ -178,11 +198,11 @@
             </details>
             <details>
               <summary>Can I see my plan before I pay?</summary>
-              <p>You can finish the whole questionnaire for free. Your firm’s plan is generated at checkout. The sample above shows every section it will include.</p>
+              <p>You can finish the whole questionnaire for free, and a review page flags blank or conflicting answers before you check out. Your firm’s plan is generated at checkout. The sample above shows the summary and every section it will include.</p>
             </details>
             <details>
               <summary>Is any of it written by AI?</summary>
-              <p>Two passages, your operations overview and risk summary, are drafted by AI from your answers. Everything else is fixed language. You must review the AI passages before the plan can be published.</p>
+              <p>Four passages are drafted by AI from your answers: the executive summary overview and, in §3, the operations overview, the basis for each risk rating, and the risk summary. Everything else is standard language filled in from your answers. You must review the AI passages before the plan can be published.</p>
             </details>
             <details>
               <summary>Can I edit the plan afterward?</summary>
@@ -190,7 +210,7 @@
             </details>
             <details>
               <summary>How much does it cost?</summary>
-              <p>$400 to generate your plan, including the first year of updates, then $100 a year. See the <a href="pricing.html">pricing page</a> for details.</p>
+              <p>$400 to generate your plan, including the first year of updates, then $100 a year, renewing automatically. See the <a href="pricing.html">pricing page</a> for details.</p>
             </details>
           </div>
         </div>
@@ -202,7 +222,7 @@
       <div class="wrap">
         <h2 id="cta-title">Ready to generate your document?</h2>
         <p>Your answers save as you go, so you can stop and finish later.</p>
-        <a class="btn btn-big btn-light" href="https://www.wisp-er.com/signup">Start now</a>
+        <a class="btn btn-big btn-light" href="#contact">Get started</a>
       </div>
     </section>
 
@@ -247,7 +267,7 @@
     <div class="wrap">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a class="logo" href="index.html" aria-label="WISPer home"><span class="logo-mark">§314</span><span class="logo-word">WISPer</span></a>
+          <a class="wordmark" href="index.html" aria-label="WISPer home">WISPer<span class="wordmark-dot"></span></a>
           <p>Written Information Security Plans for solo practitioners and small CPA firms.</p>
         </div>
         <nav aria-labelledby="f-product">
@@ -267,7 +287,7 @@
         <nav aria-labelledby="f-contact">
           <h2 id="f-contact">Contact</h2>
           <ul>
-            <li><a href="mailto:hello@wisp-er.com">Email</a></li>
+            <li><a href="mailto:hello@wisper.example">Email</a></li>
             <li><a href="index.html#contact">Contact form</a></li>
           </ul>
         </nav>
