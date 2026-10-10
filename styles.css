@@ -1490,54 +1490,6 @@ svg {
   margin-top: 0;
 }
 
-.seal-box {
-  display: grid;
-  grid-template-columns: 96px 1fr;
-  gap: 24px;
-  align-items: start;
-}
-
-.seal-box h3 {
-  margin-top: 0;
-}
-
-.seal-box .ticks {
-  margin-top: 16px;
-}
-
-/* The hero's seal, at rest */
-.seal {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 96px;
-  height: 96px;
-  border: 3px double var(--accent);
-  border-radius: 50%;
-  background-color: rgba(248, 250, 253, 0.95);
-  box-shadow: 0 4px 6px -1px rgba(3, 5, 9, 0.1), 0 2px 4px -2px rgba(3, 5, 9, 0.1);
-  color: var(--primary);
-  font-family: var(--mono);
-  font-size: 0.625rem;
-  letter-spacing: 0.18em;
-  line-height: 1.35;
-  text-align: center;
-  text-transform: uppercase;
-  transform: rotate(-8deg);
-}
-
-.seal::before {
-  content: "";
-  position: absolute;
-  top: 7px;
-  right: 7px;
-  bottom: 7px;
-  left: 7px;
-  border: 1px solid rgba(67, 138, 253, 0.7);
-  border-radius: 50%;
-}
-
 .disclose {
   max-width: 46rem;
   margin: 40px auto 0;
